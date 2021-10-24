@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/notionTodo.css">
+  <link rel="stylesheet" href="css/weather.css">
+  <link rel="stylesheet" href="css/spotify.css">
+  <link rel="stylesheet" href="css/tasmota.css">
+  <link rel="stylesheet" href="css/goaccess.css">
+  <title>Home Dashboard</title>
+</head>
+
+<body>
+  <div class="card todo">
+    <h1>✅ Todo</h1>
+    <ul class="todoList">
+    </ul>
+  </div>
+  <div class="card weather">
+    <h1>☂️️️ Weather</h1>
+  </div>
+  <div class="card spotify">
+    <h1>🎸 Music</h1>
+    <h2>Nothing playing for now</h2>
+    <div class="player">
+      <img id="previous" src="img/spotify/previous.svg" alt="">
+      <img id="play" src="img/spotify/play.svg" alt="">
+      <img id="pause" src="img/spotify/pause.svg" alt="">
+      <img id="next" src="img/spotify/next.svg" alt="">
+    </div>
+  </div>
+  <div class="card tasmota">
+    <img src="img/tasmota/light.svg" alt="">
+  </div>
+  <div class="card goaccess">
+    <h2>
+      📅 Today visitors
+    </h2>
+    <p id="today">
+
+    </p>
+    <h2>
+      👥 Total visitors
+    </h2>
+    <p id="total">
+
+    </p>
+  </div>
+  <script src="env.js" charset="utf-8"></script>
+  <script src="js/notionTodo.js" charset="utf-8"></script>
+  <script src="js/weather.js" charset="utf-8"></script>
+  <script src="js/spotify.js" charset="utf-8"></script>
+  <script src="js/tasmota.js" charset="utf-8"></script>
+  <script src="js/goaccess.js" charset="utf-8"></script>
+</body>
+
+</html>

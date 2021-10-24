@@ -1,0 +1,9 @@
+.card .todoList span {
+  background: #c6a2ec;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 7px;
+  font-size: 12px;
+  margin-left: 10px;
+  border: 1px solid #9e61cc;
+}

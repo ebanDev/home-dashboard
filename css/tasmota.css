@@ -1,0 +1,8 @@
+.tasmota {
+  height: max-content;
+  padding: 25px 30px;
+}
+
+.tasmota img {
+  width: 64px;
+}
